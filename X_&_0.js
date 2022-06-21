@@ -87,7 +87,7 @@ function restartGame() {
         document.getElementById(i).value = '';
     }
     player = 'X';
-    etToZero();
+    setToZero();
 }
 
 function setToZero() {
